@@ -172,25 +172,31 @@ for i in content:
     print(i.text)
 ```
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    Extended Duration Treasury ETF
+    Vanguard Select Funds
+    Intermediate-Term Bond ETF
+    Intermediate-Term Treasury ETF
+    Vanguard Select Funds
+    Long-Term Bond ETF
+    Long-Term Treasury ETF
+    Mortgage-Backed Securities ETF
+    Vanguard Select Funds
+    Short-Term Bond ETF
+    Vanguard Select Funds
+    Short-Term Inflation-Protected Securities ETF
+    Short-Term Treasury ETF
+    Vanguard Select Funds
+    Total Bond Market ETF
+    Intermediate-Term Corporate Bond ETF
+    Long-Term Corporate Bond ETF
+    Short-Term Corporate Bond ETF
+    Total Corporate Bond ETF
+    Vanguard Select Funds
+    Tax-Exempt Bond ETF
+    Dividend Appreciation ETF
+    ESG U.S. Stock ETF
+    Growth ETF
+    High Dividend Yield ETF
     Large-Cap ETF
     Mega Cap ETF
     Mega Cap Growth ETF
@@ -238,391 +244,389 @@ for i in content:
     Materials ETF
     Real Estate ETF
     Utilities ETF
-    EDV Bond - Long-term Government 0.07% $125.50 $0.31
+    EDV Bond - Long-term Government 0.07% $126.45 $0.43
     increased
-    0.24%
+    0.34%
     increased
-    2.62%A
+    2.64%A
     30 day
-    6/10/2019 11.45% 14.61% 7.58% 8.82% 8.04% (12/06/2007)
-    BIV Bond - Inter-term Investment 0.07% $85.39 -$0.01
-    decreased
-    -0.01%
-    decreased
-    2.69%A
+    6/13/2019 12.29% 14.61% 7.58% 8.82% 8.04% (12/06/2007)
+    BIV Bond - Inter-term Investment 0.07% $85.76 $0.01
+    increased
+    0.01%
+    increased
+    2.67%A
     30 day
-    6/10/2019 6.34% 8.34% 3.13% 4.97% 5.07% (04/03/2007)
-    VGIT Bond - Inter-term Government 0.07% $65.37 -$0.02
+    6/13/2019 6.80% 8.34% 3.13% 4.97% 5.07% (04/03/2007)
+    VGIT Bond - Inter-term Government 0.07% $65.62 -$0.04
     decreased
-    -0.02%
+    -0.06%
     decreased
-    2.09%A
+    2.06%A
     30 day
-    6/10/2019 4.01% 6.75% 2.21% — 2.95% (11/19/2009)
-    BLV Bond - Long-term Investment 0.07% $94.56 -$0.04
-    decreased
-    -0.04%
-    decreased
+    6/13/2019 4.40% 6.75% 2.21% — 2.95% (11/19/2009)
+    BLV Bond - Long-term Treasury 0.07% $95.15 $0.12
+    increased
+    0.12%
+    increased
     3.53%A
     30 day
-    6/10/2019 9.82% 10.28% 5.13% 7.55% 6.86% (04/03/2007)
-    VGLT Bond - Long-term Government 0.07% $80.28 $0.06
+    6/13/2019 10.52% 10.28% 5.13% 7.55% 6.86% (04/03/2007)
+    VGLT Bond - Long-term Government 0.07% $80.92 $0.17
     increased
-    0.07%
+    0.20%
     increased
-    2.59%A
+    2.60%A
     30 day
-    6/10/2019 8.70% 11.83% 5.40% — 6.32% (11/19/2009)
-    VMBS Bond - Inter-term Government 0.07% $52.52 -$0.01
+    6/13/2019 9.57% 11.83% 5.40% — 6.32% (11/19/2009)
+    VMBS Bond - Inter-term Government 0.07% $52.55 -$0.01
     decreased
     -0.02%
     decreased
-    2.91%J
+    2.83%J
     30 day
-    6/10/2019 3.28% 5.16% 2.29% — 2.80% (11/19/2009)
-    BSV Bond - Short-term Investment 0.07% $80.10 -$0.03
-    decreased
-    -0.04%
-    decreased
-    2.29%A
-    30 day
-    6/10/2019 2.92% 4.59% 1.58% 2.02% 2.77% (04/03/2007)
-    VTIP Bond - Short-term Government 0.06% $49.23 -$0.03
+    6/13/2019 3.34% 5.16% 2.29% — 2.80% (11/19/2009)
+    BSV Bond - Short-term Investment 0.07% $80.25 -$0.04
     decreased
     -0.05%
+    decreased
+    2.26%A
+    30 day
+    6/13/2019 3.11% 4.59% 1.58% 2.02% 2.77% (04/03/2007)
+    VTIP Bond - Short-term Government 0.06% $48.99 -$0.24
+    decreased
+    -0.49%
     decreased
     0.44%E,G
     30 day
-    6/6/2019 2.73% 2.76% 0.79% — 0.66% (10/12/2012)
-    VGSH Bond - Short-term Government 0.07% $60.69 -$0.03
-    decreased
-    -0.04%
-    decreased
-    2.11%A
-    30 day
-    6/10/2019 1.96% 3.45% 1.05% — 0.99% (11/19/2009)
-    BND Bond - Inter-term Investment 0.035% $82.11 -$0.04
-    decreased
-    -0.05%
-    decreased
-    2.73%A
-    30 day
-    6/10/2019 4.90% 6.56% 2.65% 3.68% 4.08% (04/03/2007)
-    VCIT Bond - Inter-term Investment 0.07% $88.22 $1.28
-    increased
-    1.47%
-    increased
-    3.43%A
-    30 day
-    6/10/2019 8.10% 8.76% 3.73% — 5.46% (11/19/2009)
-    VCLT Bond - Long-term Investment 0.07% $93.45 $0.08
-    increased
-    0.08%
-    increased
-    4.26%A
-    30 day
-    6/10/2019 11.63% 9.65% 5.06% — 7.16% (11/19/2009)
-    VCSH Bond - Short-term Investment 0.07% $80.10 -$0.03
-    decreased
-    -0.04%
-    decreased
-    2.83%A
-    30 day
-    6/10/2019 4.00% 5.28% 2.21% — 2.98% (11/19/2009)
-    VTC Bond - Inter-term Investment 0.07% $84.93 $0.01
-    increased
-    0.01%
-    increased
-    3.25%B
-    30 day
-    6/10/2019 7.73% 7.59% — — 3.22% (11/07/2017)
-    VTEB Bond - Long-term National Muni 0.08% $52.91 $0.02
-    increased
-    0.04%
-    increased
-    2.02%A
-    30 day
-    6/10/2019 4.66% 6.31% — — 3.51% (08/21/2015)
-    VIG Stock - Large-Cap Blend 0.06% $113.77 -$0.32
-    decreased
-    -0.28%
-    decreased
-    1.97%B
-    30 day
-    5/31/2019 16.78% 8.66% 9.32% 12.97% 8.29% (04/21/2006)
-    ESGV Stock - Large-Cap Blend 0.12% $50.37 $0.01
-    increased
-    0.01%
-    increased
-    1.74%B
-    30 day
-    5/31/2019 17.51% — — — -3.52% (09/18/2018)
-    VUG Stock - Large-Cap Growth 0.04% $160.77 -$0.05
+    6/13/2019 2.59% 2.76% 0.79% — 0.66% (10/12/2012)
+    VGSH Bond - Short-term Government 0.07% $60.78 -$0.02
     decreased
     -0.03%
     decreased
-    1.23%B
+    2.08%A
     30 day
-    5/31/2019 20.14% 4.63% 11.06% 15.07% 8.81% (01/26/2004)
-    VYM Stock - Large-Cap Value 0.06% $86.72 $0.19
-    increased
-    0.22%
-    increased
-    3.50%B
-    30 day
-    5/31/2019 12.14% 1.63% 8.03% 13.36% 7.28% (11/10/2006)
-    VV Stock - Large-Cap Blend 0.04% $132.71 -$0.04
-    decreased
-    -0.03%
-    decreased
-    2.01%B
-    30 day
-    5/31/2019 16.31% 3.75% 9.55% 13.92% 8.32% (01/27/2004)
-    MGC Stock - Large-Cap Blend 0.07% $99.90 $0.02
-    increased
-    0.02%
-    increased
-    2.06%B
-    30 day
-    5/31/2019 15.69% 4.23% 9.86% 13.81% 8.10% (12/17/2007)
-    MGK Stock - Large-Cap Growth 0.07% $127.45 $0.08
-    increased
-    0.06%
-    increased
-    1.34%B
-    30 day
-    5/31/2019 19.32% 3.98% 11.45% 15.15% 9.69% (12/17/2007)
-    MGV Stock - Large-Cap Value 0.07% $79.59 -$0.04
-    decreased
-    -0.04%
-    decreased
-    2.82%B
-    30 day
-    5/31/2019 12.39% 4.03% 8.42% 12.60% 6.59% (12/17/2007)
-    VOO Stock - Large-Cap Blend 0.03% $265.38 $0.00
+    6/13/2019 2.11% 3.45% 1.05% — 0.99% (11/19/2009)
+    BND Bond - Inter-term Investment 0.035% $82.39 $0.00
     0.00%
-    2.07%B
+    2.69%A
     30 day
-    5/31/2019 16.20% 3.75% 9.63% — 13.49% (09/07/2010)
-    VTI Stock - Large-Cap Blend 0.03% $147.50 -$0.08
-    decreased
-    -0.05%
-    decreased
-    1.97%B
-    30 day
-    5/31/2019 16.26% 2.57% 9.25% 13.98% 6.88% (05/24/2001)
-    VTV Stock - Large-Cap Value 0.04% $109.49 -$0.03
+    6/13/2019 5.26% 6.56% 2.65% 3.68% 4.08% (04/03/2007)
+    VCIT Bond - Inter-term Investment 0.07% $88.55 -$0.02
     decreased
     -0.02%
     decreased
-    2.83%B
+    3.41%A
     30 day
-    5/31/2019 12.68% 2.76% 8.18% 12.85% 7.66% (01/26/2004)
-    VXF Stock - Mid-Cap Blend 0.07% $115.94 -$0.75
-    decreased
-    -0.64%
-    decreased
-    1.46%B
+    6/13/2019 8.50% 8.76% 3.73% — 5.46% (11/19/2009)
+    VCLT Bond - Long-term Investment 0.07% $94.06 $0.11
+    increased
+    0.12%
+    increased
+    4.26%A
     30 day
-    5/31/2019 16.54% -3.64% 7.33% 14.00% 9.09% (12/27/2001)
-    VO Stock - Mid-Cap Blend 0.04% $164.12 -$0.40
-    decreased
-    -0.24%
-    decreased
-    1.62%B
+    6/13/2019 12.35% 9.65% 5.06% — 7.16% (11/19/2009)
+    VCSH Bond - Short-term Investment 0.07% $80.25 $0.01
+    increased
+    0.01%
+    increased
+    2.80%A
     30 day
-    5/31/2019 19.30% 1.63% 7.98% 14.37% 9.18% (01/26/2004)
-    VOT Stock - Mid-Cap Growth 0.07% $147.04 -$0.57
-    decreased
-    -0.38%
-    decreased
-    0.85%B
-    30 day
-    5/31/2019 23.19% 6.34% 9.48% 14.64% 8.88% (08/17/2006)
-    VOE Stock - Mid-Cap Value 0.07% $109.17 -$0.04
-    decreased
-    -0.04%
-    decreased
-    2.40%B
-    30 day
-    5/31/2019 15.23% -3.12% 6.43% 13.95% 7.86% (08/17/2006)
-    VB Stock - Small-Cap Blend 0.05% $153.12 -$0.32
-    decreased
-    -0.21%
-    decreased
-    1.65%B
-    30 day
-    5/31/2019 16.48% -3.78% 7.30% 14.15% 8.71% (01/26/2004)
-    VBK Stock - Small-Cap Growth 0.07% $181.22 -$0.88
-    decreased
-    -0.48%
-    decreased
-    0.80%B
-    30 day
-    5/31/2019 20.62% 0.63% 8.67% 14.89% 9.09% (01/26/2004)
-    VBR Stock - Small-Cap Value 0.07% $128.17 $0.03
-    increased
-    0.02%
-    increased
-    2.36%B
-    30 day
-    5/31/2019 12.91% -7.52% 6.11% 13.33% 8.18% (01/26/2004)
-    BNDW International 0.09% $77.92 $0.05
-    increased
-    0.06%
-    increased
-    1.89%B
-    30 day
-    6/10/2019 5.02% — — — 6.12% (09/04/2018)
-    BNDX International 0.09% $56.74 $0.02
-    increased
-    0.04%
-    increased
-    0.72%A
-    30 day
-    6/10/2019 5.10% 6.89% 4.09% — 4.05% (05/31/2013)
-    VWOB International 0.30% $79.05 $0.17
-    increased
-    0.22%
-    increased
-    4.98%A
-    30 day
-    6/10/2019 8.16% 7.35% 3.97% — 4.26% (05/31/2013)
-    VT International 0.09% $74.36 $0.19
-    increased
-    0.26%
-    increased
-    — 14.11% -1.93% 5.45% 9.54% 5.55% (06/24/2008)
-    VSGX International 0.15% $49.59 $0.31
-    increased
-    0.63%
-    increased
-    — 11.69% — — — -4.05% (09/18/2018)
-    VEU International 0.09% $50.67 $0.32
-    increased
-    0.63%
-    increased
-    — 11.57% -6.26% 1.59% 5.90% 2.47% (03/02/2007)
-    VSS International 0.12% $104.19 $0.40
-    increased
-    0.39%
-    increased
-    — 10.08% -13.13% 1.15% 7.15% 9.61% (04/02/2009)
-    VEA International 0.05% $41.46 $0.21
-    increased
-    0.51%
-    increased
-    — 12.23% -7.04% 1.57% 6.33% 1.08% (07/20/2007)
-    VGK International 0.09% $54.98 $0.32
-    increased
-    0.59%
-    increased
-    — 13.75% -6.02% 0.26% 6.32% 4.01% (03/04/2005)
-    VPL International 0.09% $65.75 $0.33
-    increased
-    0.50%
-    increased
-    — 8.68% -9.98% 3.47% 6.35% 4.27% (03/04/2005)
-    VNQI International 0.12% $59.07 $0.22
-    increased
-    0.37%
-    increased
-    — 12.79% -0.60% 4.09% — 5.61% (11/01/2010)
-    VIGI International 0.25% $66.98 $0.28
-    increased
-    0.41%
-    increased
-    — 16.48% -0.63% — — 9.75% (02/25/2016)
-    VYMI International 0.32% $61.44 $0.40
-    increased
-    0.66%
-    increased
-    — 10.04% -4.25% — — 8.75% (02/25/2016)
-    VXUS International 0.09% $52.41 $0.33
-    increased
-    0.63%
-    increased
-    — 11.44% -6.98% 1.54% — 3.03% (01/26/2011)
-    VWO International 0.12% $41.69 $0.43
-    increased
-    1.04%
-    increased
-    — 9.52% -6.47% 1.91% 4.72% 5.92% (03/04/2005)
-    VOX Stock - Sector 0.10% $84.57 $0.13
-    increased
-    0.15%
-    increased
-    1.07%B
-    30 day
-    5/31/2019 14.40% 2.94% 2.17% 8.89% 6.65% (09/23/2004)
-    VCR Stock - Sector 0.10% $176.39 $0.59
-    increased
-    0.33%
-    increased
-    1.33%B
-    30 day
-    5/31/2019 17.53% 2.31% 10.96% 18.11% 9.44% (01/26/2004)
-    VDC Stock - Sector 0.10% $150.74 $0.70
-    increased
-    0.47%
-    increased
-    2.77%B
-    30 day
-    5/31/2019 15.54% 13.12% 6.90% 12.32% 9.32% (01/26/2004)
-    VDE Stock - Sector 0.10% $82.15 $0.11
-    increased
-    0.13%
-    increased
-    3.67%B
-    30 day
-    5/31/2019 7.35% -22.79% -7.86% 2.75% 5.18% (09/23/2004)
-    VFH Stock - Sector 0.10% $68.42 $0.02
-    increased
-    0.03%
-    increased
-    2.35%B
-    30 day
-    5/31/2019 15.94% -3.53% 9.64% 12.42% 3.81% (01/26/2004)
-    VHT Stock - Sector 0.10% $170.38 -$0.50
-    decreased
-    -0.29%
-    decreased
-    1.53%B
-    30 day
-    5/31/2019 6.86% 5.71% 10.06% 15.57% 9.43% (01/26/2004)
-    VIS Stock - Sector 0.10% $141.38 -$1.10
-    decreased
-    -0.77%
-    decreased
-    1.73%B
-    30 day
-    5/31/2019 18.04% -1.58% 7.54% 14.44% 8.93% (09/23/2004)
-    VGT Stock - Sector 0.10% $207.64 -$0.25
-    decreased
-    -0.12%
-    decreased
-    1.34%B
-    30 day
-    5/31/2019 24.89% 7.61% 17.18% 18.10% 10.10% (01/26/2004)
-    VAW Stock - Sector 0.10% $125.34 $0.06
+    6/13/2019 4.20% 5.28% 2.21% — 2.98% (11/19/2009)
+    VTC Bond - Inter-term Investment 0.07% $85.27 $0.04
     increased
     0.05%
     increased
+    3.25%B
+    30 day
+    6/13/2019 8.17% 7.59% — — 3.22% (11/07/2017)
+    VTEB Bond - Long-term National Muni 0.08% $52.93 $0.03
+    increased
+    0.05%
+    increased
+    2.01%A
+    30 day
+    6/13/2019 4.70% 6.31% — — 3.51% (08/21/2015)
+    VIG Stock - Large-Cap Blend 0.06% $113.47 -$0.92
+    decreased
+    -0.80%
+    decreased
+    1.97%B
+    30 day
+    5/31/2019 16.96% 8.66% 9.32% 12.97% 8.29% (04/21/2006)
+    ESGV Stock - Large-Cap Blend 0.12% $50.43 $0.04
+    increased
+    0.07%
+    increased
+    1.74%B
+    30 day
+    5/31/2019 17.65% — — — -3.52% (09/18/2018)
+    VUG Stock - Large-Cap Growth 0.04% $161.29 $0.53
+    increased
+    0.33%
+    increased
+    1.23%B
+    30 day
+    5/31/2019 20.53% 4.63% 11.06% 15.07% 8.81% (01/26/2004)
+    VYM Stock - Large-Cap Value 0.06% $85.97 -$0.85
+    decreased
+    -0.97%
+    decreased
+    3.50%B
+    30 day
+    5/31/2019 11.98% 1.63% 8.03% 13.36% 7.28% (11/10/2006)
+    VV Stock - Large-Cap Blend 0.04% $132.90 $0.08
+    increased
+    0.06%
+    increased
+    2.01%B
+    30 day
+    5/31/2019 16.48% 3.75% 9.55% 13.92% 8.32% (01/27/2004)
+    MGC Stock - Large-Cap Blend 0.07% $100.06 $0.08
+    increased
+    0.08%
+    increased
+    2.06%B
+    30 day
+    5/31/2019 15.88% 4.23% 9.86% 13.81% 8.10% (12/17/2007)
+    MGK Stock - Large-Cap Growth 0.07% $127.98 $0.55
+    increased
+    0.43%
+    increased
+    1.34%B
+    30 day
+    5/31/2019 19.82% 3.98% 11.45% 15.15% 9.69% (12/17/2007)
+    MGV Stock - Large-Cap Value 0.07% $79.52 -$0.22
+    decreased
+    -0.27%
+    decreased
+    2.82%B
+    30 day
+    5/31/2019 12.28% 4.03% 8.42% 12.60% 6.59% (12/17/2007)
+    VOO Stock - Large-Cap Blend 0.03% $265.73 $0.10
+    increased
+    0.04%
+    increased
+    2.07%B
+    30 day
+    5/31/2019 16.36% 3.75% 9.63% — 13.49% (09/07/2010)
+    VTI Stock - Large-Cap Blend 0.03% $147.19 -$0.43
+    decreased
+    -0.29%
+    decreased
+    1.97%B
+    30 day
+    5/31/2019 16.44% 2.57% 9.25% 13.98% 6.88% (05/24/2001)
+    VTV Stock - Large-Cap Value 0.04% $109.43 -$0.28
+    decreased
+    -0.26%
+    decreased
+    2.83%B
+    30 day
+    5/31/2019 12.62% 2.76% 8.18% 12.85% 7.66% (01/26/2004)
+    VXF Stock - Mid-Cap Blend 0.07% $116.17 $0.18
+    increased
+    0.16%
+    increased
+    1.46%B
+    30 day
+    5/31/2019 17.07% -3.64% 7.33% 14.00% 9.09% (12/27/2001)
+    VO Stock - Mid-Cap Blend 0.04% $164.20 -$0.20
+    decreased
+    -0.12%
+    decreased
+    1.62%B
+    30 day
+    5/31/2019 19.36% 1.63% 7.98% 14.37% 9.18% (01/26/2004)
+    VOT Stock - Mid-Cap Growth 0.07% $146.99 -$0.04
+    decreased
+    -0.02%
+    decreased
+    0.85%B
+    30 day
+    5/31/2019 23.15% 6.34% 9.48% 14.64% 8.88% (08/17/2006)
+    VOE Stock - Mid-Cap Value 0.07% $109.31 -$0.25
+    decreased
+    -0.23%
+    decreased
+    2.40%B
+    30 day
+    5/31/2019 15.37% -3.12% 6.43% 13.95% 7.86% (08/17/2006)
+    VB Stock - Small-Cap Blend 0.05% $153.73 $0.62
+    increased
+    0.40%
+    increased
+    1.65%B
+    30 day
+    5/31/2019 16.94% -3.78% 7.30% 14.15% 8.71% (01/26/2004)
+    VBK Stock - Small-Cap Growth 0.07% $182.81 $1.66
+    increased
+    0.91%
+    increased
+    0.80%B
+    30 day
+    5/31/2019 21.68% 0.63% 8.67% 14.89% 9.09% (01/26/2004)
+    VBR Stock - Small-Cap Value 0.07% $128.12 -$0.16
+    decreased
+    -0.12%
+    decreased
+    2.36%B
+    30 day
+    5/31/2019 12.87% -7.52% 6.11% 13.33% 8.18% (01/26/2004)
+    BNDW International 0.09% $78.18 $0.01
+    increased
+    0.01%
+    increased
+    1.89%B
+    30 day
+    6/13/2019 5.38% — — — 6.12% (09/04/2018)
+    BNDX International 0.09% $56.91 $0.00
+    0.00%
+    0.74%A
+    30 day
+    6/13/2019 5.41% 6.89% 4.09% — 4.05% (05/31/2013)
+    VWOB International 0.30% $79.00 $0.05
+    increased
+    0.06%
+    increased
+    4.95%A
+    30 day
+    6/13/2019 8.08% 7.35% 3.97% — 4.26% (05/31/2013)
+    VT International 0.09% $73.38 -$0.51
+    decreased
+    -0.69%
+    decreased
+    — 13.45% -1.93% 5.45% 9.54% 5.55% (06/24/2008)
+    VSGX International 0.15% $48.92 $0.07
+    increased
+    0.14%
+    increased
+    — 10.17% — — — -4.05% (09/18/2018)
+    VEU International 0.09% $49.35 -$0.56
+    decreased
+    -1.12%
+    decreased
+    — 9.94% -6.26% 1.59% 5.90% 2.47% (03/02/2007)
+    VSS International 0.12% $102.05 -$0.94
+    decreased
+    -0.91%
+    decreased
+    — 8.72% -13.13% 1.15% 7.15% 9.61% (04/02/2009)
+    VEA International 0.05% $40.45 -$0.44
+    decreased
+    -1.08%
+    decreased
+    — 10.72% -7.04% 1.57% 6.33% 1.08% (07/20/2007)
+    VGK International 0.09% $53.21 -$1.06
+    decreased
+    -1.95%
+    decreased
+    — 12.08% -6.02% 0.26% 6.32% 4.01% (03/04/2005)
+    VPL International 0.09% $64.26 -$0.41
+    decreased
+    -0.63%
+    decreased
+    — 7.08% -9.98% 3.47% 6.35% 4.27% (03/04/2005)
+    VNQI International 0.12% $57.99 -$0.37
+    decreased
+    -0.63%
+    decreased
+    — 11.51% -0.60% 4.09% — 5.61% (11/01/2010)
+    VIGI International 0.25% $65.79 -$0.43
+    decreased
+    -0.65%
+    decreased
+    — 15.25% -0.63% — — 9.75% (02/25/2016)
+    VYMI International 0.32% $59.46 -$1.03
+    decreased
+    -1.69%
+    decreased
+    — 8.32% -4.25% — — 8.75% (02/25/2016)
+    VXUS International 0.09% $51.65 $0.05
+    increased
+    0.10%
+    increased
+    — 9.83% -6.98% 1.54% — 3.03% (01/26/2011)
+    VWO International 0.12% $40.65 -$0.13
+    decreased
+    -0.32%
+    decreased
+    — 7.52% -6.47% 1.91% 4.72% 5.92% (03/04/2005)
+    VOX Stock - Sector 0.10% $86.19 $0.86
+    increased
+    1.00%
+    increased
+    1.07%B
+    30 day
+    5/31/2019 16.59% 2.94% 2.17% 8.89% 6.65% (09/23/2004)
+    VCR Stock - Sector 0.10% $178.29 $0.19
+    increased
+    0.11%
+    increased
+    1.33%B
+    30 day
+    5/31/2019 18.79% 2.31% 10.96% 18.11% 9.44% (01/26/2004)
+    VDC Stock - Sector 0.10% $150.75 -$0.45
+    decreased
+    -0.29%
+    decreased
+    2.77%B
+    30 day
+    5/31/2019 15.55% 13.12% 6.90% 12.32% 9.32% (01/26/2004)
+    VDE Stock - Sector 0.10% $81.86 $0.74
+    increased
+    0.91%
+    increased
+    3.67%B
+    30 day
+    5/31/2019 6.96% -22.79% -7.86% 2.75% 5.18% (09/23/2004)
+    VFH Stock - Sector 0.10% $67.57 -$0.66
+    decreased
+    -0.96%
+    decreased
+    2.35%B
+    30 day
+    5/31/2019 14.50% -3.53% 9.64% 12.42% 3.81% (01/26/2004)
+    VHT Stock - Sector 0.10% $172.04 $1.29
+    increased
+    0.75%
+    increased
+    1.53%B
+    30 day
+    5/31/2019 7.89% 5.71% 10.06% 15.57% 9.43% (01/26/2004)
+    VIS Stock - Sector 0.10% $141.22 -$0.56
+    decreased
+    -0.39%
+    decreased
+    1.73%B
+    30 day
+    5/31/2019 17.90% -1.58% 7.54% 14.44% 8.93% (09/23/2004)
+    VGT Stock - Sector 0.10% $205.62 $0.25
+    increased
+    0.12%
+    increased
+    1.34%B
+    30 day
+    5/31/2019 23.68% 7.61% 17.18% 18.10% 10.10% (01/26/2004)
+    VAW Stock - Sector 0.10% $124.76 -$1.01
+    decreased
+    -0.80%
+    decreased
     2.13%B
     30 day
-    5/31/2019 13.65% -11.39% 3.11% 9.92% 7.70% (01/26/2004)
-    VNQ Stock - Sector 0.12% $88.94 $0.19
+    5/31/2019 13.13% -11.39% 3.11% 9.92% 7.70% (01/26/2004)
+    VNQ Stock - Sector 0.12% $90.68 $0.94
     increased
-    0.21%
+    1.05%
     increased
-    note 20.08% 14.91% 7.58% 14.92% 8.72% (09/23/2004)
-    VPU Stock - Sector 0.10% $131.92 -$0.85
+    note 22.43% 14.91% 7.58% 14.92% 8.72% (09/23/2004)
+    VPU Stock - Sector 0.10% $134.60 -$0.55
     decreased
-    -0.64%
+    -0.40%
     decreased
     3.21%B
     30 day
-    5/31/2019 12.80% 17.11% 10.36% 12.69% 10.07% (01/26/2004)
+    5/31/2019 15.09% 17.11% 10.36% 12.69% 10.07% (01/26/2004)
 
 
 We notice the following structure:
