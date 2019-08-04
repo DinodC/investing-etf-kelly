@@ -9,8 +9,8 @@ To solve this, he uses fundamental and quantitative techniques to pick winning t
 The next problem concerning the investor is how to optimally allocate his capital to different winning strategies.
 A solution is to use the Kelly formula to calculate the amount of capital he will deploy to securities or trading systems before him.
 
-In this article, I will present the Kelly formula which is a popular system used in both sports betting and investing. 
-I will use the ETFs dataset sourced in the previous article to calculate the Kelly leverages or fractions for each ETF on the list. 
+In this article, I will present the Kelly formula which is a popular system used in both sports betting and investing.
+I will use the ETFs dataset sourced in the previous article to calculate the Kelly leverages or fractions for each ETF on the list.
 I will analyze the performance metrics of each ETF group under the different leverages considered: "unconstrained", "full" and "half-Kelly".
 
 ## The Kelly Formula
@@ -30,10 +30,10 @@ $$ g(f) = r_{Risk-free} + f m - \frac{1}{2} f^2 s^2, $$
 
 and $f$ is the fraction of capital we allocate to the security.
 
-Assuming that the security follows a Normal distribution with mean $m$ and variance $s^2$, the optimal allocation $f^*$ is 
+Assuming that the security follows a Normal distribution with mean $m$ and variance $s^2$, the optimal allocation $f^*$ is
 $$ f^* = \frac{m}{s^2}, $$
 
-and the optimum growth rate is 
+and the optimum growth rate is
 $$ g(f^*) = r_{Risk-free} + \frac{1}{2} f^{*2} s^2. $$
 
 ### Case 2: Multiple Securities
@@ -51,11 +51,11 @@ $$ M = \left( m_1, m_2,..., m_n \right), $$
 
 and $C$ is the covariance matrix of the returns between securities $i$ and $j$
 $$
-\begin{pmatrix} 
-c_{11} & c_{12} & ... & c_{1n} \\ 
-c_{21} & c_{22} & ... & c_{2n} \\ 
-\vdots & \vdots & \ddots & \vdots \\ 
-c_{n1} & c_{n2} & ... & c_{nn} \\ 
+\begin{pmatrix}
+c_{11} & c_{12} & ... & c_{1n} \\
+c_{21} & c_{22} & ... & c_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+c_{n1} & c_{n2} & ... & c_{nn} \\
 \end{pmatrix}
 $$
 
@@ -69,11 +69,13 @@ $$ g(F^*) = r_{Risk-free} + \frac{1}{2} F^T C F. $$
 1. Calculate the Kelly leverages and performance metrics.
 2. Analysis of the results.
 
+You can find the code on https://github.com/DinodC/investing-etf-kelly.
+
 ## Calculate the Kelly Leverages And Performance Metrics
 In this section, we calculate compounded growth rate and Sharpe ratio under the following:
 1. "Unconstrained" Kelly leverages using the formula above.
 2. "Full" Kelly fractions with the constraint of maximum leverage set to 4.
-3. "Half" Kelly leverages with the same contraint as the full Kelly. 
+3. "Half" Kelly leverages with the same contraint as the full Kelly.
 
 Note that practitioners recommend using half Kelly over full Kelly to counter possible input errors.
 
@@ -104,7 +106,7 @@ Set the input files
 
 
 ```python
-input = {'us bonds': 'etf_us_bonds.pickle', 
+input = {'us bonds': 'etf_us_bonds.pickle',
          'us stocks': 'etf_us_stocks.pickle',
          'intl bonds': 'etf_intl_bonds.pickle',
          'intl stocks': 'etf_intl_stocks.pickle',
@@ -142,45 +144,45 @@ for i in groups:
     with open(input[i], 'rb') as f:
         close = pickle.load(f)
     f.close()
-    
+
     # Daily returns for the past 6 months
     returns = close[-120:].pct_change()
-    
+
     # Excess daily returns
     excess_returns = returns - risk_free / 250
-    
+
     # Mean excess daily returns annualized
     M = excess_returns.mean() * 250
-    
+
     # Covariance of daily returns
     C = returns.cov() * 250
-    
+
     # Kelly leverage
     F = np.matmul(np.linalg.inv(C), M)
-    
+
     # Adjust leverage
     adj_leverage = max_leverage / np.sum(np.abs(F))
-    
+
     # Leverages for unconstrained, full and half Kelly
-    Kelly = [F, 
-             adj_leverage * F, 
-             0.5 * adj_leverage * F] 
-    
+    Kelly = [F,
+             adj_leverage * F,
+             0.5 * adj_leverage * F]
+
     Kelly_id = ['unconstrained',
                 'full',
                 'half']
-    
+
     for k in range(len(Kelly)):
-        # Growth rate 
+        # Growth rate
         g = risk_free + np.matmul(np.transpose(Kelly[k]), M) - 0.5 * np.matmul(np.matmul(np.transpose(Kelly[k]), C), Kelly[k])
         # Sharpe ratio
         sharpe = np.sqrt(np.matmul(np.matmul(np.transpose(Kelly[k]), C), Kelly[k]))
-        
+
         # Updated outputs: F, g and sharpe
         output[i][Kelly_id[k]] = Kelly[k]
         output[i][Kelly_id[k] + ' growth'] = g
         output[i][Kelly_id[k] + ' sharpe'] = sharpe
-        
+
     # Update output
     output[i]['tickers'] = list(close.columns)
 ```
@@ -1031,6 +1033,6 @@ Applying the Kelly formula to sector ETFs yields the following remarks:
 
 ## Conclusion
 In this article, I reviewed the Kelly formula which is a solution to the investor's second problem.
-I demonstrated how we can use the Kelly criterion to calculate ETF fractions per Vanguard fund group. 
+I demonstrated how we can use the Kelly criterion to calculate ETF fractions per Vanguard fund group.
 The unconstrained Kelly generates impressive performance but requires significant amounts of leverage.
 The full and half Kelly suggest reasonable levels of leverage but produces unsatisfactory performance.

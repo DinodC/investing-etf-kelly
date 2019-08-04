@@ -1,7 +1,7 @@
 
 # Investing On ETFs Using The Kelly Formula Part 1
 
-## How To Retrieve ETF Data Using Python 
+## How To Retrieve ETF Data Using Python
 
 ## Introduction
 The main problem of an investor is identifying profitable trading strategies.
@@ -9,7 +9,7 @@ To solve this, he uses fundamental and quantitative techniques to pick winning t
 The next problem concerning the investor is how to optimally allocate his capital to different winning strategies.
 A solution is to use the Kelly formula to calculate the amount of capital he will deploy to securities or trading systems before him.
 
-In this article, I will source Vanguard ETFs list from the their website using Python package Selenium. 
+In this article, I will source Vanguard ETFs list from the their website using Python package Selenium.
 I will use the list to pull historical Open-High-Low-Close-Volume (OHCLV) data using Python package pandas-datareader.
 The ETF data collected in this article will be used in the next article to present a solution to the investor's capital allocation problem using the Kelly formula.
 
@@ -25,14 +25,14 @@ They have grown in popularity due to the following:
 
 ## Vanguard
 In this article, I will be using ETFs managed by Vanguard and present a brief overview of the firm.
-It was established in 1975, and offers both actively and passively managed funds. 
+It was established in 1975, and offers both actively and passively managed funds.
 Vanguard's founder is Jack Bogle, the father of index investing.
 As of January 2019, it has USD 5.2 trillion of AUM.
 
 ## Vanguard ETFs
 Vanguard ETFs are grouped by:
-1. US Bond ETFs 
-2. US Stock ETFs 
+1. US Bond ETFs
+2. US Stock ETFs
 3. International Bond ETFs
 4. International Stock ETFs
 5. Sector ETFs
@@ -40,6 +40,8 @@ Vanguard ETFs are grouped by:
 ## Step By Step
 1. Source Vanguard ETFs list of tickers.
 2. Source Vanguard ETFs historical OHLCV data.
+
+You can find the code on https://github.com/DinodC/investing-etf-kelly.
 
 ## Source Vanguard ETFs List Of Tickers
 In this section, we retrieve tickers of every ETF on Vanguard's website.
@@ -81,14 +83,14 @@ Code for scraping ETF tickers from Vanguard's home page using the first approach
 # option = webdriver.ChromeOptions()
 # option.add_argument('--incognito')
 
-# # Create a Chrome webdriver 
+# # Create a Chrome webdriver
 # driver = webdriver.Chrome('/Applications/chromedriver', options=option)
 
 # # Get to the Vanguard home page
 # driver.get('https://investor.vanguard.com/home/')
 
 # # Set delay in seconds
-# delay = 10 
+# delay = 10
 
 # # Head to the next page by clicking on 'Investing'
 # try:
@@ -132,7 +134,7 @@ Code for scraping ETF tickers from Vanguard's ETF list page using the second app
 option = webdriver.ChromeOptions()
 option.add_argument('--incognito')
 
-# Create a Chrome webdriver 
+# Create a Chrome webdriver
 driver = webdriver.Chrome('/Applications/chromedriver', options=option)
 
 # Get to the Vanguard ETF list page
@@ -647,7 +649,7 @@ for i in range(0, 59):
         etf_names.append(content[i].text.split('\n')[1])
     except IndexError:
         etf_names.append(content[i].text)
-    
+
     # Get the tickers
     etf_tickers.append(content[i + 59].text.split()[0])
 ```
@@ -702,10 +704,10 @@ etf_data.index = pd.to_datetime(etf_data.index)
 for i in range(1, len(etf_list)):
     # Pull new data
     temp_data = web.DataReader(etf_list[i], source, start, end)
-    
+
     # Update data
     etf_data = pd.concat([etf_data, temp_data], axis=1, sort=True)
-    
+
 # Set multi-level columns
 etf_data.columns = pd.MultiIndex.from_product([etf_list, temp_data.columns])
 ```
@@ -1345,12 +1347,12 @@ close = {'us bonds': pd.DataFrame(),
 for i in groups:
     # Set tickers
     tickers = maps[i]['Ticker'].tolist()
-     
+
     res = {}
     for j in range(len(tickers)):
         res[tickers[j]] = etf_data[tickers[j]].close
-        
-    # Update close prices 
+
+    # Update close prices
     close[i] = pd.DataFrame(res)
 ```
 
@@ -3551,10 +3553,10 @@ Create a list of output files
 
 
 ```python
-output = ['etf_us_bonds.pickle', 
-          'etf_us_stocks.pickle', 
-          'etf_intl_bonds.pickle', 
-          'etf_intl_stocks.pickle', 
+output = ['etf_us_bonds.pickle',
+          'etf_us_stocks.pickle',
+          'etf_intl_bonds.pickle',
+          'etf_intl_stocks.pickle',
           'etf_sectors.pickle']
 ```
 
@@ -3562,7 +3564,7 @@ Create a list of ETF data
 
 
 ```python
-data = [etf_us_bonds_close, 
+data = [etf_us_bonds_close,
         etf_us_stocks_close,
         etf_intl_bonds_close,
         etf_intl_stocks_close,
@@ -3576,7 +3578,7 @@ Pickle
 for i in range(len(output)):
     with open(output[i], 'wb') as f:
         pickle.dump(data[i], f)
-    
+
     f.close()
 ```
 
